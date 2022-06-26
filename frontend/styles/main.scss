@@ -1,0 +1,379 @@
+body {
+
+    // download dari figma tdk full 100%
+    background-image: url('../images/Ellipse\ 13.png');
+    background-repeat: no-repeat;
+
+    background-color: #F9FAFB;
+    color: #1F2937;
+    font-family: 'visby';
+    src: url('../libraries/font/VisbyRegular.otf');
+}
+
+.navbar-nav {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.dropdown-toggle {
+    color: #1E3A8A !important;
+}
+
+.btn {
+    height: 50px;
+    width: 148px;
+    left: 1194px;
+    top: 48px;
+    border-radius: 25px;
+    padding: 13px, 25px, 13px, 25px;
+}
+
+.btn-login {
+    background-color: #2563EB;
+    color: #ffffff;
+    font-size: small;
+
+    &:hover {
+        background-color: #366fea;
+        color: #ffffff;
+    }
+}
+
+.section-header {
+    height: auto;
+    background-image: url("../images/BG.png");
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    background-attachment:fixed;
+    background-position: center;
+    
+    .hero-title {
+        font-weight: 800;
+        font-size: 64px;
+        // background: linear-gradient(
+        background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hero-text {
+        font-size: 24px;
+        font-weight: 500;
+        
+    }
+
+    .icon-text {
+         margin-top: 300px;
+         a {
+            margin-right: 100px;
+            font-weight: 600;
+            font-size: 24px;
+        }
+    }
+}
+
+.section-portfolio-vid {
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+    .hero-title {
+        font-weight: 400;
+        font-size: 36px;
+        // background: linear-gradient(
+        background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         span {
+            font-weight: 800;
+            font-size: 36px;
+            background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+         }
+    }
+
+    .hero-text {
+        font-weight: 500;
+        font-size: 24px;
+        color: #1F2937;
+        
+    }
+}
+
+.rectangle-up {
+    width: auto;
+    height: 48px;
+    border-top-left-radius: 900% 900%;  /* 100px of height + 10px of border */
+    border-top-right-radius: 900% 900%; /* 100px of height + 10px of border */
+    bottom: 0;
+    background-color: #111827;
+}
+
+.section-visi-misi {
+    height: auto;
+    background-color: #111827;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-image: url(../images/BGvisidalem.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    .text-visi-misi {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        span {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 800;
+        }
+    }
+
+    .text-mendukung {
+        font-weight: 600;
+        font-size: 38px;
+        color: #F3F4F6;
+    }
+
+    .judul-visi {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .isi-visi {
+        
+        color: #ffffff;
+        font-size: 16px ;
+        font-weight: 500;
+        
+    }
+
+    .section-portfolio-vid {
+        .section-portfolio-icon {
+            margin-top: -525px;
+        }
+    }
+}
+
+.rectangle-down {
+    width: auto;
+    height: 48px;
+    border-bottom-left-radius: 900% 900%;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 900% 900%; /* 100px of height + 10px of border */
+    bottom: 0;
+    background-color: #111827;
+}
+
+.section-event-vss {
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+
+    background-image: url('../images/Ellipse\ 13.png');
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+
+    .hero-title{
+        font-weight: 400;
+        font-size: 36px;
+        
+        background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         span {
+            font-weight: 800;
+            font-size: 36px;
+            background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+         }
+    }
+
+    .text-title {
+            font-weight: 500;
+            font-size: 28px;
+    }
+
+    .card-title {
+        font-weight: 800;
+        font-family: sans-serif;
+        color: #111827;
+    }
+
+    .card-text {
+        color: #111827;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-style: italic;
+    }
+
+    .card-akhir {
+        margin-left: 226px;
+    }
+}
+
+.section-team {
+    background-color: #111827;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+
+    h3 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #dcdcdc;
+        span {
+            color: #ffffff;
+        }
+    }
+
+    p{
+        font-size: 24px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .section-card-team {
+        .section-foto-team {
+            .card-team {
+                height: 312px;
+                background-color: #111827;
+                border-radius: 20px;
+            }
+
+            .text-name {
+                font-size: 24px;
+                font-weight: 800;
+                color: #ffffff;
+            }
+
+            .team-role {
+                font-size: 16px;
+                font-weight: 400;
+                font-style: italic;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.section-how-we {
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+    .hero-title {
+        font-weight: 500;
+        font-size: 24px;
+        background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            span {
+                font-weight: 800;
+                font-size: 24px;
+                background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            }
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 36px;
+        color: #1F2937;
+    }
+
+    .form-group {
+        font-size: 16px;
+        font-weight: 500;
+        .form-control {
+            border-radius: 20px;
+            background-color: #F3F4F6;
+            color: #6B7280;
+            font-size: 16px;
+            font-weight: 500;
+        }      
+        
+        .btn {
+            .btn-primary {
+                background-color: #2563EB;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.section-other-links {
+    background-color: #111827;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.section-footer {
+    h5 {
+        font-weight: 800;
+        font-size: 16px;
+        background: -webkit-linear-gradient(55.38deg, #0A5DBC 21.04%, #0B5CBC 24.88%, #0E5BBB 28.71%, #1357BA 32.54%, #1A53B9 36.38%, #234DB7 40.21%, #2E46B5 44.04%, #3A3EB3 47.88%, #4636B0 51.71%, #522EAE 55.54%, #5D27AC 59.38%, #6621AA 63.21%, #6D1DA9 67.04%, #7219A8 70.88%, #7518A7 74.71%, #7617A7 78.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        color: #1F2937;
+    }
+
+    .form-group {
+        width: 275px;
+        height: 50px;
+    }
+    .form-control {
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 20px;
+        background-color: #E5E7EB;
+    }
+
+    .button {
+        padding-top: 2px;
+    }
+
+    .btn-berlangganan {
+        width: 156px;
+        height: 39px;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 20px;
+        background-color: #2563EB;
+        color: #ffffff;
+
+            &:hover {
+                background-color: #366fea;
+                color: #ffffff;
+            }
+    }
+
+    .copyright {
+        font-weight: 500;
+        font-size: 12px;
+        color: #6B7280;
+    }
+}
